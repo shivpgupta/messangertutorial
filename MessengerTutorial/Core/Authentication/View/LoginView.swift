@@ -42,6 +42,7 @@ struct LoginView: View {
                 }, label: {
                     Text("Forgot Password?")
                         .font(.footnote)
+                        .foregroundStyle(.red)
                         .fontWeight(.semibold)
                         .padding(.top)
                         .padding(.trailing, 28)
